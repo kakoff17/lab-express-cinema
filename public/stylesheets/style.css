@@ -8,6 +8,17 @@ a {
 }
 
 #home-page {
-  background-image: url("public/images/cinema.jpg");
+  background-image: url("/images/cinema.jpg");
   background-size: cover;
+  height: 800px;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+home-page h1 {
+  font-size: 65px;
 }

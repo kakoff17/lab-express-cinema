@@ -9,6 +9,7 @@ router.get("/", (req, res, next) => res.render("index"));
 router.get("/movies", (req, res, next) => {
   Movies.find()
     .then((response) => {
+      console.log(response)
       res.render("../views/movies/movies.hbs", {
         allMovies: response,
       });
